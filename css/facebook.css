@@ -1,0 +1,74 @@
+@media (max-width: 767px) {
+  .aside-facebook {
+    display: none;
+  }
+}
+
+.section-facebook {
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.reply-content > .form-control {
+  resize: vertical;
+  width: 100%;
+  min-height: 80px;
+}
+
+.btn-group {
+  overflow: hidden;
+  display: block;
+}
+
+.btn-group .re-left {
+  float: left;
+}
+
+.btn-group > .re-right {
+  float: right;
+}
+
+.reply-img {
+  position: relative;
+}
+
+.reply-img > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.reply-text {
+  margin-left: 50px;
+}
+
+.wrap {
+  margin-top: 10px;
+}
+
+.wrap .reply-text > p {
+  margin: 0;
+}
+
+.wrap .content {
+  margin: 10px 0;
+}
+
+.wrap .like {
+  margin-top: 10px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+.btn-inner {
+  overflow: hidden;
+}
+
+.btn-inner a {
+  float: left;
+  width: 33.3333%;
+  padding: 10px 0;
+  text-align: center;
+  color: black;
+  border-bottom: 1px solid #cccccc;
+}
